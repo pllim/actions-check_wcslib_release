@@ -1,5 +1,5 @@
-name: 'Check CFITSIO release'
-description: 'Open issue if CFITSIO has a new release.'
+name: 'Check WCSLIB release'
+description: 'Open issue if WCSLIB has a new release.'
 runs:
   using: 'docker'
   image: 'Dockerfile'

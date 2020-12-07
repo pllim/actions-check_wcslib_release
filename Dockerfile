@@ -16,7 +16,7 @@ RUN apt-get update \
 # Copies code file action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
 
-COPY check_cfitsio_release.py /check_cfitsio_release.py
+COPY check_wcslib_release.py /check_wcslib_release.py
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 ENTRYPOINT ["/entrypoint.sh"]
