@@ -23,8 +23,7 @@ jobs:
     steps:
     - name: Check release
       uses: pllim/actions-check_wcslib_release@main
-      env:
+      with:
         WCSLIB_CHECK_N_DAYS: 7
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 ```
